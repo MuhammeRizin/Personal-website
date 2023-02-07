@@ -734,9 +734,21 @@ section .container {
   color: #18d26e;
 }
 
-.contact .php-email-form {
-  padding: 30px;
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
   background: rgba(255, 255, 255, 0.08);
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
 }
 
 .contact .php-email-form .validate {
